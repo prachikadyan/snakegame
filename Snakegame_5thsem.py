@@ -12,7 +12,7 @@ game_over  = False
 
 # ─── SCREEN SETUP ────────────────────────────────────────────
 wn = turtle.Screen()
-wn.title("🐍 Snake Game")
+wn.title(" Snake Game")
 wn.bgcolor("black")
 wn.setup(width=700, height=700)
 wn.tracer(0)
