@@ -124,7 +124,7 @@ def toggle_pause():
         return
     paused = not paused
     if paused:
-        show_message("⏸  PAUSED  —  Press P to Resume")
+        show_message(" PAUSED  —  Press P to Resume")
     else:
         clear_message()
 
@@ -186,7 +186,7 @@ def spawn_bonus():
 def flash_level(lv):
     lvl_pen.clear()
     lvl_pen.write(
-        "  ★  LEVEL {}  ★  ".format(lv),
+        "   LEVEL {}    ".format(lv),
         align="center",
         font=("Courier", 20, "bold")
     )
@@ -289,7 +289,7 @@ while True:
         lvl_pen.clear()
         lvl_pen.color("gold")
         lvl_pen.write(
-            "  ★  +50 BONUS!  ★  ",
+            "    +50 BONUS!   ",
             align="center",
             font=("Courier", 18, "bold")
         )
